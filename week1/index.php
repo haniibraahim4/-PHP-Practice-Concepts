@@ -15,12 +15,39 @@
 //     $Fname="hani ibraahim";
 //     echo" my name is: $Fname";
 
-  $my_str="Welcome to Php Republic  ";
-  echo strlen($my_str)
+//   $my_str="Welcome to Php Republic  ";
+//   echo strlen($my_str);
 
 
-  $mystrt ="hani ibrahim Abouker";
-  echo str_word_count($mystrt)
+//   $mystrt ="hani ibrahim Abouker";
+//   echo str_word_count($mystrt);
+
+
+
+  $day = date("D");
+
+if($day == "Sun"){
+    echo "Today is sunday";
+}
+else if($day == "Mon"){
+    echo "Today is monday";
+}
+else if($day == "Tue"){
+    echo "Today is tuesday";
+    }
+    else if($day == "Wed"){
+        echo "Today is wednesday";
+    }
+    else if($day == "Thu"){
+        echo "Today is thursday";
+    }
+    else if($day == "Fri"){
+        echo "Today is friday";
+    }
+    else{
+        echo "Today is saturday";
+    }
+
 //     ?>
 
   
